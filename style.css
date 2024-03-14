@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e5f3b3;
+}
+.container{
+    border: 2px solid #820263;
+    box-shadow: 0 0 10px 1px rgba(0, 0,0,0.3);
+    background-color: #BD89A3;
+    min-height: 50vh;
+    width: 30vw;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+h2{
+    text-align: center;
+    color:antiquewhite;
+}
+
+form{
+    margin:1rem 0 1.5rem 0;
+}
+
+form input,select,button{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+form>p{
+    color: #721414;
+    font-weight: 600;
+}
+
+form input{
+    padding:0.5rem 0 0.5rem 0.5rem ;
+    font-weight: 600;
+    border: 1px solid lightgray;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    align-items: center;
+}
+.select img{
+    width: 70px;
+}
+.select{
+    display: flex;
+    /* background-color: red; */
+    border-radius: 0.5rem;
+    border: 1px solid lightgray;
+    width: 7rem;
+    padding:0.3rem;
+}
+form select{
+    background: transparent;
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+.dropdown i{
+    font-size: 1.5rem;
+    color:bisque;
+    margin-top: 1.2rem;
+}
+ .msg{
+    margin: 2rem 0 2rem 0 ;
+    text-align: center;
+    font-weight: 600;
+    color: rebeccapurple;
+ }
+ button{
+    color:whitesmoke ;
+    background-color: rgb(128, 9, 128);
+    height: 3rem;
+
+ }
+
+
